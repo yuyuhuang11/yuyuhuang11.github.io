@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" type="image/png" href="./image/pig.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Amatic+SC|Cute+Font|Gloria+Hallelujah|Montserrat|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header id="contact">
+      <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" id='icon'><span>&#89;</span><span>&#104;</span>&trade;</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div>
+      <h1>Contact Me</h1>
+    </div>
+    </header>
+    <div id="social">
+      <div class="container row">
+        <div class="column">
+          <a href="https://www.linkedin.com/in/yuyu-huang-2018/" class="button button-icon" role="button" target="_blank">
+            <i class="fa fa-linkedin-square" style="font-size:36px"></i>
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://github.com/yuyuhuang11" class="button button-icon" role="button" target="_blank">
+            <i class="fa fa-github" style="font-size:36px"></i>
+          </a>
+        </div>
+        <div class="column">
+          <a href="mailto:chloeyuyuhuang@outlook.com" class="button button-icon" role="button" target="_blank">
+            <i class="fa fa-envelope" style="font-size:36px"></i>
+          </a>
+        </div>
+        <div class="column">
+            <a id='wechat' class="button button-icon" role="button" target="_blank">
+              <i class="fa fa-wechat" style="font-size:36px"></i>
+            </a>
+        </div>
+        <div class="column">
+          <a href="https://www.instagram.com/yuyu_ooo" class="button button-icon" role="button" target="_blank">
+            <i class="fa fa-instagram" style="font-size:36px"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="msg">
+      <div class="container">
+        <p>If you think I am a good fit for Any software/ web development jobs <br>
+        &#10084;<br>Shoot me a message!</p>
+      </div>
+    </div>
+
+    <div id="wechat_Modal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img02">
+      <div id="wechat_id"></div>
+
+    </div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("wechat_Modal");
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById("wechat");
+      var modalImg = document.getElementById("img02");
+      var captionText = document.getElementById("wechat_id");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = './image/wechat_QR.jpg';
+        captionText.innerHTML = 'OR Search by my WeChat ID: Y8714584421';
+      }
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
