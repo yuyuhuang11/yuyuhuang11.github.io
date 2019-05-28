@@ -1,0 +1,392 @@
+/* Home Page */
+#home {
+  /* background: url('https://selfproclaimedfoodie.com/wp-content/uploads/pork-fried-rice-Self-Proclaimed-Foodie-Facebook-Share-6.jpg') no-repeat center center fixed; */
+  background: url('https://images.pexels.com/photos/698604/pexels-photo-698604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center fixed;
+    /* background: url('https://images.pexels.com/photos/1054220/pexels-photo-1054220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%)
+}
+
+#home .jumbotron .container h1 {
+  font-size: 100px;
+  font-family: 'Shadows Into Light', cursive;
+  margin: 0;
+}
+
+#home a {
+  color: #ffffff;
+  font-size: 40px;
+  margin: auto;
+  font-family: 'Cute Font', cursive;
+  padding: 0 10px 0 10px;
+}
+#home a:link {
+  text-decoration: none;
+}
+
+#home a:visited {
+  text-decoration: none;
+}
+
+#home a:hover {
+  color: grey;
+}
+
+#home a:active {
+  text-decoration: underline;
+}
+
+/* Navbar */
+nav.navbar.navbar-expand-lg.navbar-light {
+  margin: 0 45px;
+  padding: 2px 0 0;
+  color: white;
+  font-size: 20px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light a {
+  color: white;
+  font-size: 35px;
+  font-family: 'Cute Font', cursive;
+  padding: 0;
+  margin-left: 60px;
+}
+
+#icon {
+  font-size: 70px;
+  /* border: 1px solid white; */
+  border-radius: 30%;
+  padding: 5px;
+}
+
+/* About Page */
+#about {
+  background: url('https://images.pexels.com/photos/623279/pexels-photo-623279.png?auto=compress&cs=tinysrgb&dpr=2&w=500') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  animation: 40s linear 0s normal none infinite animatedBackground;
+  height: 100vh;
+  position: relative;
+
+}
+
+header div h1 {
+  color: #ffffff;
+  font-size: 100px;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  padding: 160px 0 224px;
+  margin: auto;
+}
+
+#panel {
+  background-color: #FFFEFA;
+  padding: 60px 30px 30px 30px;
+  margin: auto;
+  overflow:hidden;
+  color: #67818f;
+  border-top: 3px solid lightgrey;
+}
+
+#info {
+  float: left;
+  width: 35%;
+}
+
+#info img {
+  border: 1px solid #ddd;
+  border-radius: 4px 40px 20px 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 87%;
+  text-align: center;
+  position: relative;
+}
+
+#name {
+  text-align: center;
+  position: relative;
+}
+
+#name h3 + p {
+  margin-bottom: 0;
+}
+
+#detail p {
+  text-align: center;
+  margin: 0;
+}
+
+#intro {
+  float: left;
+  width: 65%;
+  padding-left: 50px;
+  position: relative;
+}
+
+#intro h4 {
+  margin-top: 0;
+}
+
+/* projects */
+#project {
+  background: url('https://images.pexels.com/photos/2273384/pexels-photo-2273384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  animation: 40s linear 0s normal none infinite animatedBackground;
+  height: 100vh;
+  position: relative;
+
+}
+
+.main{
+  /* height: 400px; */
+  /* text-align: center; */
+  color: #67818f;
+  background-color: #FFFEFA;
+  /* height: 500px; */
+  border-top: 3px solid lightgrey;
+  /* position: relative; */
+  font-family: 'Alegreya Sans', sans-serif;
+  padding: 0 45px;
+  /* transform: translate(-50%, -50%) */
+}
+
+.section {
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  border-bottom: 1px solid lightgrey;
+  padding: 20px 0;
+}
+
+.section h2 {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+}
+
+.section a {
+  margin: auto;
+
+}
+
+.middle {
+  overflow: hidden;
+}
+
+.left {
+  width: 50%;
+  float: left;
+  position:inherit;
+}
+
+.right {
+  width: 50%;
+  float: left;
+  position: inherit;
+}
+
+.imgs {
+  border: 1px solid #ddd;
+  border-radius: 4px 40px 20px 40px;
+  display: block;
+  width: 80%;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.imgs:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 900px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption, #wechat_id {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* Contact Page */
+#contact {
+  background: url('https://images.pexels.com/photos/881053/pexels-photo-881053.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  animation: 40s linear 0s normal none infinite animatedBackground;
+  height: 100vh;
+  position: relative;
+}
+
+#social {
+  background-color: #FFFEFA;
+  padding: 60px 30px 30px 30px;
+  margin: auto;
+  overflow:hidden;
+  color: #67818f;
+  border-top: 3px solid lightgrey;
+}
+
+#social .container {
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+}
+
+.column a i{
+  transition: all .2s ease-in-out;
+}
+
+#wechat {
+  color: grey;
+}
+
+#img02 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 450px;
+}
+
+#wechat_id {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* unvisited link */
+.column a:link {
+  color: grey;
+}
+
+/* visited link */
+.column a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+.column i:hover {
+  color: black;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* selected link */
+.column i:active {
+  color: black;
+}
+
+#msg {
+  background-color: #FFFEFA;
+  text-align: center;
+}
+
+#msg p {
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  margin: 0;
+  /* border: 1px solid red; */
+  border-top: 1px solid lightgrey;
+}
