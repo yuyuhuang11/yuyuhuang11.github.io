@@ -1,19 +1,17 @@
 /* Home Page */
 #home {
-  /* background: url('https://selfproclaimedfoodie.com/wp-content/uploads/pork-fried-rice-Self-Proclaimed-Foodie-Facebook-Share-6.jpg') no-repeat center center fixed; */
   background: url('https://images.pexels.com/photos/698604/pexels-photo-698604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center fixed;
-    /* background: url('https://images.pexels.com/photos/1054220/pexels-photo-1054220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed; */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: auto;
-    transform: translate(-50%, -50%)
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%)
 }
 
 #home .jumbotron .container h1 {
@@ -86,7 +84,7 @@ header div h1 {
   font-size: 100px;
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
-  padding: 160px 0 224px;
+  padding: 214px 0 224px;
   margin: auto;
 }
 
