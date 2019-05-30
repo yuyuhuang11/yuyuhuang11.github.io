@@ -90,7 +90,7 @@ header div h1 {
 
 #panel {
   background-color: #FFFEFA;
-  padding: 60px 30px 30px 30px;
+  padding: 60px 100px 50px 70px;
   margin: auto;
   overflow:hidden;
   color: #67818f;
@@ -122,6 +122,33 @@ header div h1 {
   margin-bottom: 0;
 }
 
+#name a:link{
+  color: grey;
+  text-decoration: none;
+}
+
+#name a:visited {
+  color: grey;
+}
+
+#name i:hover {
+  color: black;
+}
+
+
+#name i:hover {
+  color: black;
+  cursor: pointer;
+  transform: scale(1.1);
+  deco
+}
+
+/* selected link */
+#name i:active {
+  color: black;
+}
+
+
 #detail p {
   text-align: center;
   margin: 0;
@@ -152,8 +179,6 @@ header div h1 {
 }
 
 .main{
-  /* height: 400px; */
-  /* text-align: center; */
   color: #67818f;
   background-color: #FFFEFA;
   /* height: 500px; */
@@ -168,8 +193,11 @@ header div h1 {
   top: 50%;
   left: 50%;
   margin: auto;
-  border-bottom: 1px solid lightgrey;
   padding: 20px 0;
+}
+
+.borderline {
+  border-bottom: 1px solid lightgrey;
 }
 
 .section h2 {
@@ -274,15 +302,14 @@ header div h1 {
   position: absolute;
   top: 15px;
   right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
+  height: 35px;
+  width: 35px;
   transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
@@ -385,6 +412,28 @@ header div h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
   margin: 0;
-  /* border: 1px solid red; */
+  padding-bottom: 20px;
   border-top: 1px solid lightgrey;
+}
+
+footer {
+  background: #FFFEFA;
+  text-align: center;
+  color: lightgrey;
+  /* font-family: 'Cute Font', cursive; */
+  font-size: 15px;
+  margin: auto 30px;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+#p1 {
+  margin-top: 10px;
+}
+
+#p2 {
+  margin-bottom: 10px;
 }
